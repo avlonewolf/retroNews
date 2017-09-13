@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+   >
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv_detailed"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/oldnewsPaper">
+            <TextView
+                android:id="@+id/title_detailed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text="HELLLLO"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:id="@+id/photo_detailed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_below="@id/title_detailed"
+                 />
+            <TextView
+                android:id="@+id/author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/photo_detailed"
+                android:text="Ankit Vimal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="15dp" />
+            <TextView
+                android:id="@+id/content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/author"
+                android:text="Shaheen lives in a cramped, two-room tenement in the congested Khatakpura Izzat Khan lane in urban Farukkhabad. Her husband Dishad sells embroidery scraps for a living. They have three daughters, aged 15, 10 and 6.
+
+In the dimly-lit room, Shaheen waits for Dilshad to return. Short on money, life is tough for the family. But Shaheen is also in trauma. A few weeks ago, her fourth child died a day after birth.
+
+Shaheen alleges that her baby died due to neglect at the Ram Manohar Lohia district hospital. The nurses failed to provide the newborn with oxygen supply, she says."
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="20dp" />
+
+
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+    </ScrollView>
+</LinearLayout>
